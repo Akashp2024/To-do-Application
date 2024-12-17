@@ -1,0 +1,43 @@
+body{
+    margin: 5px;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    align-items: center;
+}
+
+#todo_container,#input_containers{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 15px;
+}
+
+#input_todo, #date_todo{
+    font-size: 15px;
+    padding: 10px;
+}
+
+#addbtn{
+    background-color: green;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+#deletebtn{
+    background-color: rgb(85, 6, 6);
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+#task{
+    border: none;
+    background-color: white;
+}
